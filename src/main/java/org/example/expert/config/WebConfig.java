@@ -16,4 +16,6 @@ public class WebConfig implements WebMvcConfigurer {
     public void addArgumentResolvers(List<HandlerMethodArgumentResolver> resolvers) {
         resolvers.add(new AuthUserArgumentResolver());
     }
+
+    //✅인터셉터 등록
 }
